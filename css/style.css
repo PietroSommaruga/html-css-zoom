@@ -37,8 +37,7 @@ main{
 .item{
     width: 230px;
     height: 150px;
-    margin: 10px 4px;
-    
+    margin: 0 5px;
 
     position: relative;
 }
@@ -95,9 +94,18 @@ footer {
     font-size: 24px;
 }
 
+.icon:hover{
+    color: rgba(5, 5, 5, 0.281);
+}
+
 .nav-right {
     background-color: #555;
     color: red;
     padding: 0 20px 0 20px;
+}
+
+.nav-right:hover{
+    background: red;
+    color: #fff;
 }
 /* // footer */
