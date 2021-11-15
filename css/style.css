@@ -42,6 +42,10 @@ main{
     position: relative;
 }
 
+.item:hover{
+    border: 2px solid green;
+}
+
 .box-item img {
     width: 100%;
     height: 100%;
@@ -102,10 +106,14 @@ footer {
     background-color: #555;
     color: red;
     padding: 0 20px 0 20px;
+    transition: all 2s;
 }
 
 .nav-right:hover{
-    background: red;
+    background-color: red;
     color: #fff;
+    width: 200px;
+    height: 150px;
+    transition: all 1s;
 }
 /* // footer */
